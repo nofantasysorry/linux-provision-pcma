@@ -1,0 +1,17 @@
+# Фиксируем LF: скрипт и текстовые конфиги обязаны иметь
+# unix-концы строк при клонировании на Linux-терминал.
+*.sh     text eol=lf
+*.md     text eol=lf
+LICENSE  text eol=lf
+*.crt    text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Conky-конфиги из исходников проекта (если появятся в репозитории).
+conky.conf text eol=lf
+
+# Бинарные файлы — не трогать.
+*.png binary
+*.jpg binary
+*.gif binary
+*.db  binary

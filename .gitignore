@@ -1,0 +1,15 @@
+# Logs
+*.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor artifacts
+*.swp
+*~
+.idea/
+.vscode/
+
+# Source drafts (integrated into provision.sh)
+Conky/
